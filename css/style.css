@@ -40,6 +40,13 @@ body{
     font-size: 11px;
     padding: 5px 20px;
 }
+.white2{
+    display: block;
+    background-color: #fff;
+    padding: 10px 0;
+    width: 20%;
+    margin:5px auto;
+}
 
 /* header */
 header{
@@ -144,6 +151,7 @@ header a{
 /* funzionalità */
 .container.full{
     background-color: #9792e4;
+    padding-top: 30px;
 }
 
 .boxes.odd{
@@ -310,9 +318,35 @@ h2{
 }
 
 /* get started */
-.container.bottom{
-    margin-bottom: 0;
+.container.full.bottom{
+    margin: 50px auto 0 auto;
+    height:400px;
 }
+#get-started{
+    color:#fff;
+}
+.final{
+    width:50%;
+}
+.final h2, .final p, .final sub{
+    color:#fff;
+    margin: 25px auto;
+
+}
+.final h2{
+    font-size: 36px;
+}
+#free{
+    color:#f1bc66;
+    font-size: 50px;
+}
+ sub a{
+    color:#fff;
+    text-decoration: underline;
+ }
+
+
+
 
 /* footer */
 footer{
