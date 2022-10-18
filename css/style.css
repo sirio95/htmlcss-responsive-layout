@@ -135,14 +135,47 @@ header a{
 
 .boxes.odd{
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    background-color: #9792e4;
+    height: 100%;
 }
 .left{
-    height:400px;
     margin:10px;
+    background-color: #9792e4;
+    height:80%;
+}
+.left img{
+    width:100%;
+    height:auto;
+    margin-bottom: 30px;
+}
+.left h3, .left p{
+    color:#fff;
+    text-align: left;
+}
+.left h3{
+    margin-bottom:20px;
 }
 .right{
-    
+    background-color: #fff;
+    margin:10px;
+    height:50%;
+}
+.right img{
+    width: 50%;
+    height:auto;
+}
+.right p{
+    margin-bottom:20px;
+}
+#arrow-down{
+    border-radius: 50%;
+    background-color: #9792e4;
+    padding:5px;
+}
+#arrow-down i{
+    color: #000;
+    font-size: 20px;
 }
 
 /* Testimonials */
