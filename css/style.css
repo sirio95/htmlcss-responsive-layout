@@ -30,7 +30,12 @@ body{
     font-size: 25px;
     color:#fff;
 }
-
+.purple{
+    color:#fff;
+    background-color:#9792e4;
+    padding: 5px 30px;
+    margin:20px auto;
+}
 /* header */
 header{
     height:80px;
@@ -70,8 +75,11 @@ header a{
 /* Presentazione */
 
 .container{
-    margin: 130px auto 50px auto;
+    margin: 50px auto;
     width:100%;
+}
+.container.first{
+    margin: 130px auto 50px auto;
 }
 
 .boxes{
@@ -131,7 +139,6 @@ header a{
 /* funzionalità */
 .container.full{
     background-color: #9792e4;
-    margin: 50px auto;
 }
 
 .boxes.odd{
@@ -186,6 +193,11 @@ header a{
     margin: auto;
     text-align: center;
     line-height:180%;
+    margin-bottom:20px;
+}
+.text h2{
+    color:#9792e4;
+    margin: 20px auto;
 }
 
 .person{
@@ -221,6 +233,32 @@ header a{
 /* Benefits */
 h2{
     text-align: center;
+    color:#fff;
+}
+
+.white{
+    height:300px;
+    max-width: calc(100% / 3);
+    margin: 5px 10px;
+    width: calc((100% - 60px) / 3);
+    background-color: #fff;
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.number{
+    color:#9792e4;
+    font-size: 50px;
+}
+
+.white h3{
+    color:#9792e4;
+}
+.white p{
+    font-size: 14px;
+    text-align: left;
 }
 /* About us */
 .about-us{
