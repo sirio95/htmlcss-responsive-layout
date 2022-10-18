@@ -1,0 +1,270 @@
+/* Responsive smartphone - 480px */
+@media all and (max-width: 767px){
+    /* regole generali */
+    body{
+        font-size:1rem;
+    }
+
+    .container{
+        width:100%;
+        height:auto;
+    }
+
+    h2{
+        font-size:1.5rem;
+    }
+
+    /* header */
+    ul{
+        display:none;
+    }
+    .fa-bars{
+        display: block;
+    }
+
+
+    /* bottoni */
+    .blue{
+        padding: 0.71rem 2.9rem;
+    }
+    .purple{
+        align-self:flex-start;
+    }
+    .white2{
+        width: 50%;
+        margin: 0.3rem auto;
+    }
+
+    /* presentazione */
+    .boxes{
+        width:90%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .box{
+        height:auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .box.large{
+        height:auto;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: flex-start;
+        width:100%;
+        max-width:100%;
+    }
+    .box.large img{
+        align-self: center;
+        order:+1;
+    }
+    
+    .box h3{
+        font-size: 1.9rem;
+    }
+    .box h3, .box i, .box p{
+        margin: 1rem auto;
+
+    }
+
+    /* funzionalità */
+
+    #arrow-down{
+        padding:10px;
+    }
+
+    /* Testimonials */
+    .text{
+        width:90%;
+        height:auto;
+        line-height:140%;
+        margin-bottom: 30px;;
+    }
+    .person{
+        width:90%;
+        height:auto;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .person img{
+        width: 100%;
+    }
+    .client, .name{
+        font-size: 12px;
+        width:70%;
+    }
+
+    /* Benefits */
+    .white{
+        width:90%;
+        max-width:90%;
+    }
+
+    /* About us */
+    .about-us{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .text.long{
+        width:100%;
+        max-width:100%;
+        margin:0;
+    }
+    .person.small{
+        width:100%;
+        max-width:100%;
+    }
+
+    /* Get started */
+    .bottom{
+        width:100%;
+        height:auto;
+    }
+    .final{
+        width: 90%;
+    }
+    .final h2{
+        font-size: 1.5rem;
+    }
+    .final h2, .final p, .final sub{
+        margin: 1.3rem auto;
+    }
+    .final p{
+        font-size: 0.8rem;
+    }
+    #free{
+        font-size: 2rem;
+    }
+    sub{
+        font-size: 0.5rem;
+    }
+
+    /* footer */
+    footer{
+        height:auto;
+    }
+    .closing, .closing div{
+        width:90%;
+    }
+    .closing div{
+        font-size: 0.6rem;
+    }
+}
+
+/* Responsive tablet - 768px */
+@media all and (min-width: 768px) and (max-width: 1139px){
+    
+    /* regole generali */
+    body{
+        font-size:14px;
+    }
+
+    /* header */
+    ul{
+        display:none;
+    }
+    .fa-bars{
+        display: block;
+    }
+
+    /* presentazione */
+    .boxes{
+        width:90%;
+    }
+    .box.large{
+        flex-direction: column;
+    }
+    .box.large img{
+        order: +1;
+        align-self: flex-start;
+    }
+    .box{
+        height:auto;
+    }
+    .box i{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .box p{
+        margin-top:10px;
+        padding: 3px 25px;
+    }
+
+    /* funzionalità */
+    .boxes.odd{
+        display: block;
+        width:100%;
+        height:auto;
+        padding-bottom:20px;
+    }
+    .left{
+        width: 100%;
+        height:auto;
+        max-width:100%;
+    }
+    .left img{
+        width:80%;
+        height:auto;
+    }
+    .left h3{
+        font-size: 30px;
+    }
+    .left h3, .left p{
+        text-align: left;
+        padding:0;
+    }
+    .right{
+        width:100%;
+        max-width:100%;
+    }
+
+    .text{
+        width:90%;
+    }
+
+    /* Testimonials */
+    h2{
+        font-size:36px;
+    }
+    .person{
+        width:90%;
+        border-radius:25px;
+    }
+    .person img{
+        width: 40%;
+        margin:-5%;
+    }
+    
+    /* Benefits */
+    .box.white{
+        width:calc((100% - 40px) / 2);
+        max-width:calc(100% / 2);
+    }
+    .center{
+        justify-content: center;
+        width:90%;
+    }
+    
+    /* About us */
+    .about-us{
+        width:90%;
+    }
+
+    .text.long{
+        width:60%;
+    }
+
+.person.small{
+    width: calc(100% - 40px - 60%);
+}
+.small img{
+    margin-bottom:40px;
+    flex-basis: 20%;
+    width:100%;
+}
+}
